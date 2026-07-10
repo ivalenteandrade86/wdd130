@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-color: steelblue;
+    background-color: black;
     color: white;
     text-align: center;
     padding: 20px;
@@ -17,7 +17,7 @@ header {
 }
 
 nav {
-    background-color: steelblue;
+    background-color: black;
     padding: 10px;
 }
 
@@ -38,7 +38,7 @@ main {
 }
 
 h1 {
-    color: steelblue;
+    color: black;
     text-align: center;
     margin: 15px 0;
 }
@@ -46,7 +46,7 @@ h1 {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
@@ -94,6 +94,6 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
     padding: 20px;
-    background-color: steelblue;
+    background-color: black;
     color: white;
 }
