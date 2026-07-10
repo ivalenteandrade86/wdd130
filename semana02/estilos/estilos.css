@@ -72,12 +72,12 @@ section ul {
 
 aside {
     width: 20rem;
-    margin: 1rem auto;
+    margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2);
+    /*1*/
     padding: 1rem;
     background-color: #eee;
     color: #333;
-    text-align: center;
 }
 
 aside img {
@@ -93,7 +93,4 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
-    padding: 20px;
-    background-color: black;
-    color: white;
 }
