@@ -50,7 +50,7 @@ h1 {
 aside {
     width: 20px;
     margin: 1em;
-    border: 1px solid rgba(0 0 0 0, 2);
+    border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1em;
     background-color: #eee;
     color: #222;
