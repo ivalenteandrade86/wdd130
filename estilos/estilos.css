@@ -16,7 +16,6 @@ nav {
     background-color: steelblue;
     padding: 1rem;
     justify-content: space-evenly;
-    text-align: 15px;
 }
 
 nav a {
@@ -66,7 +65,7 @@ aside img {
 }
 
 footer {
-    margin-top: 10px 0 30px 0;
+    margin-top: auto;
     border-top: 1px solid #000;
     text-align: center;
 
