@@ -23,13 +23,15 @@ body {
 nav {
     background-color: steelblue;
     padding: var(--padding);
+    display: flex;
     justify-content: space-evenly;
 }
 
 nav a {
     color: white;
     padding: 10px;
-    display: block;
+    display: inline-block;
+    text-decoration: none;
 }
 
 main img {
@@ -55,7 +57,6 @@ p {
 h1 {
     color: steelblue;
     padding: 10px 0;
-    margin-bottom: 10px;
     margin: 15px;
 }
 
@@ -72,7 +73,7 @@ aside {
 
 aside h2 {
     position: absolute;
-    top 47px;
+    top: 47px;
     left: 60px;
 }
 
@@ -98,6 +99,6 @@ footer {
 }
 
 .indentacao {
-    padding left: 2rem;
+    padding-left: 2rem;
 
 }
