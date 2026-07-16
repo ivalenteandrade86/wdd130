@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+/* Seletores de Classe*/
+.caixa {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+
 :root {
     --cor-de-fundo-do-titulo: #f06;
     --cor-do-texto-do-titulo: #333;
@@ -39,6 +48,7 @@ main img {
     padding: 2px;
     box-shadow: 0 0 10px gray;
     margin: 0px 0 20px 25px;
+    float: right;
 }
 
 main {
@@ -59,12 +69,14 @@ h1 {
 
 aside {
     width: 20em;
-    margin: 1em;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1em;
-    background-color: #eee;
-    color: #222;
     text-align: center;
+    position: relative;
+}
+
+aside h2 {
+    position: absolute;
+    top 47px;
+    left: 60px;
 }
 
 aside img {
