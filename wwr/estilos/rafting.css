@@ -14,7 +14,7 @@
 }
 
 header {
-    background-color: var(--cor-primaria) var(--cor-secundaria)
+    background-color: var(--cor-primaria) var(--cor-destaque2)
 }
 
 * {
