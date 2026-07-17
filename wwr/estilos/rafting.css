@@ -87,3 +87,7 @@ h1 {
 .hero article {
     position: absolute;
 }
+
+.socialmedia a {
+    text-decoration: none;
+}
