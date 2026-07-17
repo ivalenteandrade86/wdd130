@@ -5,7 +5,7 @@
 }
 
 :root {
-    --cor-primaria: #055a05;
+    --cor-primaria: #333;
     --cor-secundaria: #f4a261;
     --cor-destaque1: #264653;
     --cor-destaque2: #e9c46a;
@@ -31,7 +31,8 @@ body {
 
 header,
 main,
-footer {
+footer,
+article {
     width: 840px;
     margin: 0 auto;
 }
