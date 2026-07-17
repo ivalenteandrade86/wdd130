@@ -31,8 +31,7 @@ body {
 
 header,
 main,
-footer,
-article {
+footer {
     width: 840px;
     margin: 0 auto;
 }
