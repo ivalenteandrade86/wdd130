@@ -38,7 +38,7 @@ footer {
 h1,
 h2 {
     font-family: var(--fonte-titulo);
-    color: var(--cor-primaria);
+    color: var(--cor-secundaria);
     text-align: center;
 }
 
