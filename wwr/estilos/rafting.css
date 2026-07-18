@@ -82,8 +82,7 @@ h1 {
     color: #fff;
 }
 
-.hero article img {
-    position: absolute;
+.hero article {
     float: right;
     width: 150px;
     margin-left: 10px;
