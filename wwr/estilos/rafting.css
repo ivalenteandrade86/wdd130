@@ -35,6 +35,7 @@ h2 {
     font-family: var(--fonte-titulo);
     color: var(--cor-primaria);
     text-align: center;
+    box-shadow: #055a05;
 }
 
 nav,
@@ -75,6 +76,5 @@ h1 {
     width: 125px;
     border: #264653;
     margin: auto;
-    box-shadow: #055a05;
 
 }
