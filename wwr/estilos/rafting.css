@@ -14,7 +14,7 @@
 }
 
 header {
-    background-color: var(--cor-primaria);
+    background-color: var(--cor-secundaria);
     color: var(--cor-destaque2);
 }
 
@@ -33,7 +33,7 @@ footer {
 h1,
 h2 {
     font-family: var(--fonte-titulo);
-    color: var(--cor-secundaria);
+    color: var(--cor-primaria);
     text-align: center;
 }
 
@@ -72,6 +72,9 @@ h1 {
 
 .hero article img {
     float: right;
-    width: 150px;
+    width: 125px;
+    border: #fff;
+    margin: 30px;
+    box-shadow: #055a05;
 
 }
