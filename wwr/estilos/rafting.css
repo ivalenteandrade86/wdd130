@@ -60,7 +60,7 @@ article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -77,4 +77,14 @@ h1 {
     border: #264653;
     margin: auto;
 
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    padding: 16px;
 }
