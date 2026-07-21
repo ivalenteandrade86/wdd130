@@ -19,6 +19,40 @@ body {
     color: #333;
 }
 
+nav {
+    background-color: #63454f;
+}
+
+nav li {
+    flex: 1 1 auto;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    /*  justify-content: space-around;
+    align-items: center;*/
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+p {
+    margin: 1rem;
+    border: 1px solid rgb(0, 0, 0 / 10%);
+    padding: 1rem;
+    background-color: #bed;
+    max-width: 400px;
+}
+
 .item1 {
     min-height: 100px;
 }
