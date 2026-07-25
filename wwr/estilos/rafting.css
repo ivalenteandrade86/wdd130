@@ -14,7 +14,6 @@
 }
 
 header {
-    display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
     padding: 1rem 2rem;
@@ -24,6 +23,7 @@ header {
     top: 0;
     z-index: 1000;
     color: var(--cor-destaque2);
+    width: 100%;
 }
 
 body {
@@ -59,9 +59,18 @@ h2 {
 nav {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     gap: 2rem;
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
 }
 
 nav a {
@@ -137,4 +146,19 @@ article {
 
 .socialmedia a {
     text-decoration: none;
+}
+
+.header-logo img {
+    height: 60px;
+    width: auto;
+    display: block;
+}
+
+.header-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    width: 840px;
+    margin: 0 auto;
+    padding: 1rem 0;
 }
