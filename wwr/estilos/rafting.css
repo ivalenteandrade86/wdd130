@@ -91,18 +91,18 @@ article {
 }
 
 /*REDES SOCIAIS*/
-.redes-sociais {
+.socialmedia {
     display: flex;
     gap: 1rem;
 }
 
-.redes-sociais img {
+.socialmedia img {
     width: 30px;
     height: 30px;
     transition: transform 0.3s ease;
 }
 
-.redes-sociais img:hover {
+.socialmedia img:hover {
     transform: scale(1.1);
 }
 
