@@ -29,7 +29,7 @@ footer {
 }
 
 header {
-    background-color: var(--cor-destaque2);
+    background-color: var(--cor-secundaria);
     box-shadow: var(--cor-sombra);
     position: sticky;
     top: 0;
