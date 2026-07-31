@@ -118,24 +118,24 @@ article {
 }
 
 /*REDES SOCIAIS*/
-.redes-social {
+.redes-sociais {
     display: flex;
     gap: 20px;
     align-items: center;
 }
 
-.redes-social img {
+.redes-sociais img {
     width: 40px;
     height: 40px;
     object-fit: contain;
     transition: transform 0.3s ease;
 }
 
-.redes-social img:hover {
+.redes-sociais img:hover {
     transform: scale(1.2);
 }
 
-.redes-social a {
+.redes-sociais a {
     text-decoration: none;
     display: block;
 }
