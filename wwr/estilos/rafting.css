@@ -345,15 +345,27 @@ button {
 
 }
 
-.radio-group label {
+.radio-group {
+    grid-column: 2 / 3;
     display: flex;
-    align-items: center;
-    gap: 1.5rem;
-    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+}
+
+.radio-group input[type="radio"] {
+    margin: 0;
+}
+
+.radio-group label {
+    font-weight: 400;
+}
 }
 
 .checkbox {
-    font-weight: 400;
+    grid-column: 1/3;
+    display: flex;
+    gap: 0.5rem;
 }
 
 .funcionarios {
