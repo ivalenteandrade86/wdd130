@@ -94,7 +94,7 @@ article {
     padding: 8px 0;
 }
 
-/*REDES SOCIAIS*/
+/*SOCIAL MEDIA*/
 .socialmedia {
     display: flex;
     gap: 20px;
@@ -135,7 +135,7 @@ article {
     transform: scale(1.2);
 }
 
-.socialmedial a {
+.redes-social a {
     text-decoration: none;
     display: block;
 }
