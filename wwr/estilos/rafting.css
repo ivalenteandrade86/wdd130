@@ -302,14 +302,13 @@ footer p {
 
 .form-contato {
     display: grid;
-    grid-template-columns: 120px 1fr;
-    gap: 1rem;
-    align-items: start;
-    max-width: 600px;
+    grid-template-columns: 180px 1fr;
+    gap: 1rem 1.5rem;
+    align-items: center;
 }
 
 .form-contato label {
-    text-align: center;
+    text-align: right;
     font-weight: 700;
 }
 
@@ -335,10 +334,11 @@ footer p {
     font-weight: 700;
     background-color: var(--cor-secundaria);
     border: 2px solid var(--cor-destaque1);
-    border-radius: 4px;
+    color: var(--cor-destaque1);
+    /*border-radius: 4px;
     cursor: pointer;
     transition: 0.3s;
-    margin-top: 1rem;
+    margin-top: 1rem;*/
 }
 
 .form-contato button:hover {
@@ -364,6 +364,7 @@ footer p {
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    white-space: nowrap;
 }
 
 .checkbox {
@@ -372,6 +373,7 @@ footer p {
     gap: 0.5rem;
     align-items: center;
     justify-content: flex-start;
+    margin: 1rem 0;
 }
 
 .checkbox label {
@@ -381,6 +383,9 @@ footer p {
 .funcionarios {
     text-align: center;
     padding: 3rem 0;
+    border: 4px solid var(--cor-secundaria);
+    margin: 1rem auto;
+    max-width: 840px;
 }
 
 .funcionarios h2 {
@@ -411,9 +416,7 @@ footer p {
     font-weight: 600;
 }
 
-button {
-    width: 100%;
-    padding: auto;
-    margin: 5px;
-
+.label-topo {
+    align-self: start;
+    padding-top: 8px;
 }
