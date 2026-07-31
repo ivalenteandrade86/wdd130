@@ -97,21 +97,24 @@ article {
 /*REDES SOCIAIS*/
 .socialmedia {
     display: flex;
-    gap: 15px;
+    gap: 20px;
+    align-items: center;
 }
 
 .socialmedia img {
-    width: 32px;
-    height: 32px;
-    object-fit: cover;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
 }
 
 .socialmedia img:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .socialmedia a {
     text-decoration: none;
+    display: block;
 }
 
 /*HERO*/
@@ -230,13 +233,17 @@ article {
 
 /*FOOTER*/
 footer {
-    display: grid;
-    grid-template-columns: 1fr auto;
+    width: 840px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding: 15px 20px;
+    padding: 20px 40px;
     background-color: var(--cor-secundaria);
-    color: white;
     margin-top: 15px;
+    color: white;
+    margin: 15px auto 0;
+    font-size: 13px;
+    box-sizing: border-box;
 }
 
 footer p {
