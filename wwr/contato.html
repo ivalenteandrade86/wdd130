@@ -56,20 +56,25 @@
                 <input type="email" id="email-do-usuario" name="email-do-usuario"
                   placeholder="Digite aqui" required>
 
-                <label>Propósito da Mensagem</label>
+                <label class="label-topo">Propósito da Mensagem</label>
                 <div class="radio-group">
-                    <input type="radio" id="proposito-duvida" name="proposito" value="duvida"
-                      checked>
-                    <label for="proposito-duvida">Dúvida Geral</label>
+                    <label for="proposito-duvida">
+                        <input type="radio" id="proposito-duvida" name="proposito" value="duvida"
+                          checked>Dúvida Geral
+                    </label>
 
-                    <input type="radio" id="proposito-reserva" name="proposito" value="reserva">
-                    <label for="proposito-reserva">Pergunta sobre Reserva</label>
+                    <label for="proposito-reserva">
+                        <input type="radio" id="proposito-reserva" name="proposito"
+                          value="reserva">Pergunta sobre Reserva
+                    </label>
 
-                    <input type="radio" id="proposito-sugestao" name="proposito" value="sugestao">
-                    <label for="proposito-sugestao">Sugestão</label>
+                    <label for="proposito-sugestao">
+                        <input type="radio" id="proposito-sugestao" name="proposito"
+                          value="sugestao">Sugestão
+                    </label>
                 </div>
 
-                <label for="mensagem">Mensagem</label>
+                <label for="mensagem" class="label-topo">Mensagem</label>
                 <textarea id="mensagem" name="mensagem"
                   placeholder="Digite sua Mensagem"></textarea>
 
