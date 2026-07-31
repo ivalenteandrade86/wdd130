@@ -117,6 +117,29 @@ article {
     display: block;
 }
 
+/*REDES SOCIAIS*/
+.redes-social {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.redes-social img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.redes-social img:hover {
+    transform: scale(1.2);
+}
+
+.socialmedial a {
+    text-decoration: none;
+    display: block;
+}
+
 /*HERO*/
 .hero {
     position: relative;
