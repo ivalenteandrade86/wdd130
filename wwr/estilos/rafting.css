@@ -71,6 +71,7 @@ nav ul {
 }
 
 nav a {
+    grid-template-rows: auto;
     color: var(--cor-destaque1);
     text-decoration: none;
     font-weight: 600;
@@ -96,12 +97,12 @@ article {
 /*REDES SOCIAIS*/
 .socialmedia {
     display: flex;
-    gap: 1rem;
+    gap: 15px;
 }
 
 .socialmedia img {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     transition: transform 0.3s ease;
 }
 
@@ -230,14 +231,18 @@ article {
 /*FOOTER*/
 footer {
     display: flex;
+    background-color: var(--cor-secundaria);
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem 0;
+    font-size: 13px;
+    padding: 20px;
     border-top: 1px solid var(--cor-secundaria);
     margin-top: 2rem;
+    grid-template: auto;
 }
 
 footer p {
+    font-size: 15px;
     margin: 0;
     color: var(--cor-destaque1);
 }
