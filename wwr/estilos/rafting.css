@@ -418,3 +418,43 @@ footer p {
     align-self: start;
     padding-top: 8px;
 }
+
+.form-group {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    gap: 1rem 1.5rem;
+    align-items: center;
+}
+
+.form-group label {
+    text-align: center;
+    font-weight: 700;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-group button {
+    grid-column: 1/3;
+    padding: 0.8rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    background-color: var(--cor-secundaria);
+    border: 2px solid var(--cor-destaque1);
+    color: var(--cor-destaque1);
+    /*border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 1rem;*/
+}
+
+.form-group button:hover {
+    background-color: var(--cor-primaria);
+    color: white;
