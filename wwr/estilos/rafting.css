@@ -460,7 +460,7 @@ footer p {
 .botao-cta {
     display: inline-block;
     background-color: var(--cor-destaque2);
-    columns: var(--cor-destaque1);
+    color: var(--cor-destaque1);
     padding: 14px 28px;
     text-decoration: none;
     border-radius: 5px;
