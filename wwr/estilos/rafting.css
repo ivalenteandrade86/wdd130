@@ -662,7 +662,7 @@ footer p {
     background-color: var(--cor-branca);
     border-radius: 8px;
     padding: 1rem;
-    box-shadow: 0 4px 8px var(--cor-sombra);
+    box-shadow: 0 1x 1px var(--cor-sombra);
     display: block;
 }
 
@@ -672,6 +672,10 @@ footer p {
     object-fit: cover;
     border-radius: 8px;
     margin-bottom: 1rem;
+}
+
+.card-passeio p strong {
+    font-style: var(--fonte-body);
 }
 
 .tabela-passeios {
