@@ -468,22 +468,26 @@ footer p {
 }
 
 .botao-cta {
-    display: inline-block;
+    display: block;
     background-color: var(--cor-secundaria);
     color: var(--cor-destaque1);
     padding: 14px 28px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 50px;
     font-weight: 700;
     font-size: 1.1rem;
     margin-top: 20px;
     border: 2px solid var(--cor-destaque1);
     transition: all 0.3s ease;
+    box-shadow: 0 2px 5px var(--cor-sombra);
 }
 
 .botao-cta:hover {
     background-color: var(--cor-primaria);
     color: var(--cor-branca);
+    padding: 1rem;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px var(--cor-primaria);
 }
 
 .botao-cta-invertido {
@@ -492,7 +496,7 @@ footer p {
     color: var(--cor-branca);
     padding: 12px 24px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 50px;
     font-weight: 700;
     border: 2px solid var(--cor-branca);
     margin-top: 15px;
@@ -697,12 +701,12 @@ table tbody tr:hover {
 
 .cta-contato {
     background-color: var(--cor-secundaria);
+    border: 2px solid var(--cor-destaque1);
     color: var(--cor-destaque1);
     text-align: center;
-    padding: 3rem 2rem;
-    border-radius: 8px;
-    margin: 3rem auto;
-    max-width: 840px;
+    padding: 1rem;
+    font-size: 1.2rem;
+    margin: 10px;
 }
 
 .cta-contato h2 {
@@ -710,15 +714,7 @@ table tbody tr:hover {
     margin-bottom: 1rem;
 }
 
-.cta-contato.botao-cta {
-    background-color: var(--cor-secundaria);
+.cta-contato p {
     color: var(--cor-destaque1);
-    border-color: var(--cor-secundaria);
-    font-size: 1.3rem;
-    padding: 18px 36px;
-}
-
-.cta-contato .botao-cta:hover {
-    background-color: var(--cor-secundaria);
-    color: var(--cor-destaque1);
+    margin-bottom: 1rem;
 }
